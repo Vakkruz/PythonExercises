@@ -1,3 +1,9 @@
+import argparse
+
+parser = argparse.ArgumentParser(description='Checks if numbers are even or odd. Can also see if two intergers are divisble.')
+#Sets up description for what program does
+
+"""
 while(True):
     num = float(input("Type in a number: "))
 
@@ -9,3 +15,6 @@ while(True):
             print("And it's also divisible by 4!\n")
     else:
         print("It's not even\n")
+"""
+
+args = parser.parse_args()
