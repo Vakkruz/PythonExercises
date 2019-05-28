@@ -15,7 +15,7 @@ usr_list2 = list(map(int,input("\nEnter the numbers : ").strip().split()))[:num_
 """
 
 num_list1 = random.randint(0,20)
-for i in range(0,num_list1):
+for i in range(num_list1):
     usr_list1.append(random.randint(0, 200))
 
 num_list2 = random.randint(0,20)
